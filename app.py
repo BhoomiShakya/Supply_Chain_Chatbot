@@ -7,7 +7,7 @@ from openai import OpenAI
 
 client = OpenAI(
   base_url = "https://integrate.api.nvidia.com/v1",
-  api_key = "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"
+  api_key = ""
 )    
 df = pd.read_csv('C:\\Users\\ASUS\\Desktop\\supply_chain\\bhoomi\\supply_chain_data.csv')
 
